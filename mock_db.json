@@ -1,0 +1,42 @@
+[
+  {
+    "dispute_id": "DP_101",
+    "order_id": "ORD_9901",
+    "customer_name": "Rohan Sharma",
+    "disputed_amount": 18500.0,
+    "reason_code": "10.4",
+    "reason_description": "Fraud - Card Absent Environment",
+    "avs_match": "MATCH",
+    "cvc_match": "PASS",
+    "checkout_ip": "103.22.45.1",
+    "ip_location": "Bhopal, MP",
+    "shipping_address": "Bhopal, MP",
+    "ip_distance_km": 1.2,
+    "carrier": "BlueDart",
+    "tracking_id": "BD8829102",
+    "delivery_status": "Delivered",
+    "delivery_notes": "Handed to recipient",
+    "chat_history": "Customer: Hi, I got my order yesterday but want to return it. Support: Sure, click return in app.",
+    "ground_truth_winable": true
+  },
+  {
+    "dispute_id": "DP_102",
+    "order_id": "ORD_9902",
+    "customer_name": "Unknown",
+    "disputed_amount": 42000.0,
+    "reason_code": "10.4",
+    "reason_description": "Fraud - Card Absent Environment",
+    "avs_match": "FAIL",
+    "cvc_match": "FAIL",
+    "checkout_ip": "185.220.101.4",
+    "ip_location": "Frankfurt, Germany",
+    "shipping_address": "Mumbai, MH",
+    "ip_distance_km": 6500.0,
+    "carrier": "Delhivery",
+    "tracking_id": "DL1029384",
+    "delivery_status": "In Transit",
+    "delivery_notes": "Attempted delivery failed",
+    "chat_history": "None",
+    "ground_truth_winable": false
+  }
+]
